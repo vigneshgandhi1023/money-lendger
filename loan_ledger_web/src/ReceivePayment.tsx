@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { db } from './Database';
-import type { Loan, Customer } from './Database';
+import type { Loan } from './Database';
 
 export default function ReceivePayment() {
   const navigate = useNavigate();
